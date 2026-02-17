@@ -63,15 +63,20 @@ Follow the steps below to set up and run the Air Canvas project on your system
 python --version
 ```
 ### Step 2: Clone the Repository
+```bash
 git clone https://github.com/ajaysingh-byte/air-canva.git
 cd air-canva
-
+```
 ### Step 3: (Optional but Recommended) Create and Activate Virtual Environment
+```bash
 python -m venv venv
 venv\Scripts\activate
-
+```
 ### Step 4: Install Dependencies from requirements.txt
+```bash
 pip install -r requirements.txt
-
+```
 ### Step 6: Run the Application
+```bash
 python air_canvas.py
+```
