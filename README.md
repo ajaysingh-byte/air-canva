@@ -39,7 +39,7 @@ The objective of this project is to demonstrate how **hand gesture recognition**
 
 ## 🧰 Technologies Used
 
-- **Python 3**
+- **Python 3.10 (Most Important because MediaPipe 0.10.21 will NEVER install on Python 3.13)**
 - **OpenCV**
 - **MediaPipe**
 - **NumPy**
@@ -58,7 +58,7 @@ Air-Canvas/
 ## ⚙️ Installation & Setup (Complete Steps)
 
 Follow the steps below to set up and run the Air Canvas project on your system
-### Step 1: Check Python Installation
+### Step 1: Check Python Installation (must be 3.10x)
 ```bash
 python --version
 ```
@@ -69,7 +69,7 @@ cd air-canva
 ```
 ### Step 3: (Optional but Recommended) Create and Activate Virtual Environment
 ```bash
-python -m venv venv
+python -3.10 -m venv venv
 venv\Scripts\activate
 ```
 ### Step 4: Install Dependencies from requirements.txt
@@ -80,3 +80,4 @@ pip install -r requirements.txt
 ```bash
 python air_canvas.py
 ```
+
